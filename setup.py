@@ -1,16 +1,16 @@
 
 from distutils.core import setup
 setup(
-    name='testmem-py',
-    packages=['testmem'],
-    version='0.1.7',
+    name='test-memphis-py',
+    packages=['memphis'],
+    version='0.0.3',
     license='GPL',
     description='A powerful message broker for developers',
     readme="README.md",
     author='Memphis.dev',
-    author_email='team@memphis.dev',
+    author_email='shoham@memphis.dev',
     url='https://github.com/shohamroditimemphis/test-memphis.py',
-    download_url='https://github.com/shohamroditimemphis/test-memphis.py/releases/tag/v0.0.1.tar.gz',
+    download_url='https://github.com/shohamroditimemphis/test-memphis.py/releases/tag/v0.0.3.tar.gz',
     keywords=['message broker', 'devtool', 'streaming', 'data'],
     install_requires=[
         'asyncio',

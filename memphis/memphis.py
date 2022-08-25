@@ -28,8 +28,8 @@ import uuid
 from threading import Timer
 import asyncio
 
-import retention_types
-import storage_types
+import memphis.retention_types as retention_types
+import memphis.storage_types as storage_types
 
 
 class set_interval():

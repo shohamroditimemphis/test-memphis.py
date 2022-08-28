@@ -3,14 +3,14 @@ from distutils.core import setup
 setup(
     name='test-memphis-py',
     packages=['memphis'],
-    version='0.0.3',
+    version='0.0.6',
     license='GPL',
     description='A powerful message broker for developers',
     readme="README.md",
     author='Memphis.dev',
     author_email='shoham@memphis.dev',
     url='https://github.com/shohamroditimemphis/test-memphis.py',
-    download_url='https://github.com/shohamroditimemphis/test-memphis.py/releases/tag/v0.0.3.tar.gz',
+    download_url='https://github.com/shohamroditimemphis/test-memphis.py/releases/tag/v0.0.6.tar.gz',
     keywords=['message broker', 'devtool', 'streaming', 'data'],
     install_requires=[
         'asyncio',
